@@ -5,7 +5,7 @@ value1 = int(input())
 print("Введите второе значение")
 value2 = int(input())
 
-value3 = random.choice([value1, value2])
+value3 = random.randint(value1, value2)
 
 answer = input("Введите чет/нечет")
 
